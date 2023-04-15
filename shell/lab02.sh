@@ -12,14 +12,12 @@ elif [ $o == "-" ]; then
   echo "A - B = $((A-B))"
 elif [ $o == "*" ]; then 
   echo "A * B = $((A*B))"
-elif [ $o == "/"]; then
+elif [ $o == "/" ]; then
   echo "A / B = $((A/B))"
-elif [ $o == "%"]; then
+elif [ $o == "%" ]; then
   echo "A % B = $((A%B))"
-elif [ $o == "**"]; then
+elif [ $o == "**" ]; then
   echo "A ** B = $((A**B))"
 else 
   echo "invalid operator"
-
-
-  
+fi
